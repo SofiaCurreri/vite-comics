@@ -6,43 +6,45 @@
       <div class="container">
         <div class="flex-x">
           <div class="flex-y">
-            <div>
+            <div class="flex-y">
               <h2>DC COMICS</h2>
-              <p>Characters</p>
-              <p>Comics</p>
-              <p>Movies</p>
-              <p>Tv</p>
-              <p>Games</p>
-              <p>Videos</p>
-              <p>News</p>
+              <a href="#">Characters</a>
+              <a href="#">Comics</a>
+              <a href="#">Movies</a>
+              <a href="#">Tv</a>
+              <a href="#">Games</a>
+              <a href="#">Videos</a>
+              <a href="#">News</a>
             </div>
 
-            <div>
+            <div class="flex-y">
               <h2>SHOP</h2>
-              <p>Shop DC</p>
-              <p>Shop DC Collectibles</p>
+              <a href="#">Shop DC</a>
+              <a href="#">Shop DC</a>
+              <a href="#">Collectibles</a>
             </div>
           </div>
-          <div>
+          <div class="flex-y">
             <h2>DC</h2>
-            <p>Terms of Use</p>
-            <p>Privacy Policy</p>
-            <p>Ad Choicess</p>
-            <p>Advertising</p>
-            <p>Jobs</p>
-            <p>Subscriptions</p>
-            <p>Talent Workshops</p>
-            <p>CPSC Certificates</p>
-            <p>Ratings</p>
-            <p>Contact Us</p>
+            <a href="#"> Terms of Use</a>
+            <a href="#">Privacy</a>
+            <a href="#"> Policy</a>
+            <a href="#"> Ad Choicess</a>
+            <a href="#">Advertising</a>
+            <a href="#">Jobs</a>
+            <a href="#">Subscriptions</a>
+            <a href="#">Talent Workshops</a>
+            <a href="#">CPSC Certificates</a>
+            <a href="#"> Ratings</a>
+            <a href="#"> Contact Us</a>
           </div>
-          <div>
+          <div class="flex-y">
             <h2>SITES</h2>
-            <p>DC</p>
-            <p>MAD Magazine</p>
-            <p>DC Kids</p>
-            <p>DC Universe</p>
-            <p>DC Power Visa</p>
+            <a href="#">DC</a>
+            <a href="#"> MAD Magazine</a>
+            <a href="#">DC Kids</a>
+            <a href="#"> DC Universe</a>
+            <a href="#"> DC Power Visa</a>
           </div>
         </div>
         <div>
@@ -50,13 +52,34 @@
         </div>
       </div>
     </section>
-    <section id="footer-bottom"></section>
+    <section id="footer-bottom">
+      <div class="container">
+        <button>
+          <a href="#"><h2>SIGN-UP NOW!</h2></a>
+        </button>
+
+        <div id="right-bottom-footer">
+          <div><h2>FOLLOW US</h2></div>
+          <div>
+            <img src="../assets/footer-facebook.png" alt="" />
+            <img src="../assets/footer-twitter.png" alt="" />
+            <img src="../assets/footer-youtube.png" alt="" />
+            <img src="../assets/footer-pinterest.png" alt="" />
+            <img src="../assets/footer-periscope.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
   </footer>
 </template>
 
 <style lang="scss" scoped>
 footer {
   width: 100vw;
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
 }
 
 #footer-top {
@@ -65,9 +88,9 @@ footer {
   background-image: url("../../public/img/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  p {
+  a {
     color: rgb(121, 121, 121);
-    line-height: 0.7rem;
+    line-height: 1.5rem;
   }
   h2 {
     color: white;
@@ -77,10 +100,12 @@ footer {
 .container {
   height: 100%;
   margin: 0 300px;
-  padding-top: 150px;
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+#footer-top .container {
   position: relative;
   img {
     width: 55rem;
@@ -106,5 +131,25 @@ footer {
   height: 10vh;
   width: 100%;
   background-color: rgb(48, 48, 48);
+  position: absolute;
+  z-index: 1;
+}
+
+button {
+  border: 2px solid rgb(2, 130, 249);
+  background-color: rgb(48, 48, 48);
+  color: white;
+  padding: 3px 15px;
+}
+
+#right-bottom-footer {
+  color: rgb(2, 130, 249);
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  img {
+    margin-left: 1rem;
+  }
 }
 </style>

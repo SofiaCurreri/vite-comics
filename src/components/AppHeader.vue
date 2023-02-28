@@ -58,7 +58,7 @@ export default {
       <nav>
         <ul>
           <li v-for="link in navbarLinks" :key="link.title">
-            <a href="link.link">{{ link.title }}</a>
+            <a :href="link.link">{{ link.title }}</a>
           </li>
         </ul>
       </nav>

@@ -8,43 +8,51 @@
           <div class="flex-y">
             <div class="flex-y">
               <h2>DC COMICS</h2>
-              <a href="#">Characters</a>
-              <a href="#">Comics</a>
-              <a href="#">Movies</a>
-              <a href="#">Tv</a>
-              <a href="#">Games</a>
-              <a href="#">Videos</a>
-              <a href="#">News</a>
+              <ul>
+                <li><a href="#">Characters</a></li>
+                <li><a href="#">Comics</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Tv</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">News</a></li>
+              </ul>
             </div>
 
             <div class="flex-y">
               <h2>SHOP</h2>
-              <a href="#">Shop DC</a>
-              <a href="#">Shop DC</a>
-              <a href="#">Collectibles</a>
+              <ul>
+                <li><a href="#">Shop DC</a></li>
+                <li><a href="#">Shop DC</a></li>
+                <li><a href="#">Collectibles</a></li>
+              </ul>
             </div>
           </div>
           <div class="flex-y">
             <h2>DC</h2>
-            <a href="#"> Terms of Use</a>
-            <a href="#">Privacy</a>
-            <a href="#"> Policy</a>
-            <a href="#"> Ad Choicess</a>
-            <a href="#">Advertising</a>
-            <a href="#">Jobs</a>
-            <a href="#">Subscriptions</a>
-            <a href="#">Talent Workshops</a>
-            <a href="#">CPSC Certificates</a>
-            <a href="#"> Ratings</a>
-            <a href="#"> Contact Us</a>
+            <ul>
+              <li><a href="#"> Terms of Use</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#"> Policy</a></li>
+              <li><a href="#"> Ad Choicess</a></li>
+              <li><a href="#">Advertising</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Subscriptions</a></li>
+              <li><a href="#">Talent Workshops</a></li>
+              <li><a href="#">CPSC Certificates</a></li>
+              <li><a href="#"> Ratings</a></li>
+              <li><a href="#"> Contact Us</a></li>
+            </ul>
           </div>
           <div class="flex-y">
             <h2>SITES</h2>
-            <a href="#">DC</a>
-            <a href="#"> MAD Magazine</a>
-            <a href="#">DC Kids</a>
-            <a href="#"> DC Universe</a>
-            <a href="#"> DC Power Visa</a>
+            <ul>
+              <li><a href="#">DC</a></li>
+              <li><a href="#"> MAD Magazine</a></li>
+              <li><a href="#">DC Kids</a></li>
+              <li><a href="#"> DC Universe</a></li>
+              <li><a href="#"> DC Power Visa</a></li>
+            </ul>
           </div>
         </div>
         <div>
@@ -94,6 +102,12 @@ footer {
   }
   h2 {
     color: white;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
   }
 }
 

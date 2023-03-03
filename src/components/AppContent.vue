@@ -1,5 +1,32 @@
-<script></script>
+<script>
+import comics from "./_comicsData.js";
+import AppCard from "./AppCard.vue";
 
-<template></template>
+export default {
+  data() {
+    return {
+      comics,
+    };
+  },
 
-<style lang="scss" scoped></style>
+  components: { AppCard },
+};
+</script>
+
+<template>
+  <div class="container">
+    <AppCard v-for="comic in comics" :comic="comic" />
+  </div>
+</template>
+
+<style lang="scss" scoped>
+.container {
+  height: 100%;
+  margin-top: 4rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+</style>

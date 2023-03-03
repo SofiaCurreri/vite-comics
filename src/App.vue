@@ -22,9 +22,7 @@ export default {
   <main>
     <section id="content">
       <AppJumbotron />
-      <div class="container">
-        <AppContent />
-      </div>
+      <AppContent />
     </section>
 
     <section id="menu">

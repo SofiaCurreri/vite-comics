@@ -1,15 +1,34 @@
 <script>
-import comics from "./_comicsData.js";
-
 export default {
-  data() {
-    return {
-      comics,
-    };
+  props: {
+    comic: Object,
   },
 };
 </script>
 
-<template></template>
+<template>
+  <div>
+    <a href="#">
+      <div class="thumb">
+        <img :src="comic.thumb" alt="" />
+      </div>
 
-<style lang="scss" scoped></style>
+      <p>
+        {{ comic.series }}
+      </p>
+    </a>
+  </div>
+</template>
+
+<style lang="scss" scoped>
+.thumb {
+  width: 180px;
+  height: 180px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+  }
+}
+</style>

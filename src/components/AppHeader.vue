@@ -72,9 +72,6 @@ header {
 }
 
 .container {
-  height: 100%;
-  margin: 0 300px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,7 +79,7 @@ header {
     list-style: none;
 
     display: flex;
-    align-items: center;
+    align-items: end;
     gap: 3rem;
     a {
       text-decoration: none;

@@ -14,33 +14,46 @@ export default {
 </script>
 
 <template>
-  <div class="container">
-    <AppCard v-for="comic in comics" :comic="comic" />
+  <div class="container d-flex flex-column align-items-center py-5">
+    <label class="d-flex align-items-center justify-content-center">
+      <h2>CURRENT SERIES</h2>
+    </label>
+    <div class="row row-cols-6 mt-5">
+      <div class="col mb-5" v-for="comic in comics">
+        <AppCard :comic="comic" />
+      </div>
+    </div>
     <button>
-      <a href="#"><h2>LOAD MORE</h2></a>
+      <a href="#"><h4 class="fs-5 mt-1">LOAD MORE</h4></a>
     </button>
   </div>
 </template>
 
 <style lang="scss" scoped>
 .container {
-  height: 100%;
-  margin-top: 4rem;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  position: relative;
 }
 
 button {
+  width: 15%;
   border: transparent;
   background-color: rgb(2, 130, 249);
   color: white;
-  padding: 3px 15px;
+  padding: 4px 20px;
   a {
     text-decoration: none;
     color: currentColor;
   }
+}
+
+label {
+  color: white;
+  background-color: rgb(2, 130, 249);
+  height: 4rem;
+  width: 20rem;
+
+  position: absolute;
+  left: 0;
+  top: -2rem;
 }
 </style>

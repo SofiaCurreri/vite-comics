@@ -26,9 +26,7 @@ export default {
     </section>
 
     <section id="menu">
-      <div class="container">
-        <AppMenu />
-      </div>
+      <AppMenu />
     </section>
   </main>
 
@@ -42,7 +40,6 @@ main {
 
 #content {
   width: 100vw;
-  height: 90vh;
   background-color: rgb(28, 28, 28);
 }
 
@@ -53,8 +50,6 @@ main {
 }
 
 .container {
-  height: 100%;
-  margin: 0 300px;
   h1 {
     color: white;
   }

@@ -13,7 +13,7 @@ export default {
         <img :src="comic.thumb" alt="" />
       </div>
 
-      <p>
+      <p class="text-center text-uppercase mt-3">
         {{ comic.series }}
       </p>
     </a>
@@ -30,5 +30,10 @@ export default {
     object-fit: cover;
     object-position: center top;
   }
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 </style>

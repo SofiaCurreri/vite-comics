@@ -63,7 +63,7 @@
     <section id="footer-bottom">
       <div class="container">
         <button>
-          <a href="#"><h2>SIGN-UP NOW!</h2></a>
+          <a href="#"><h3 class="px-4 py-2">SIGN-UP NOW!</h3></a>
         </button>
 
         <div id="right-bottom-footer">
@@ -113,7 +113,6 @@ footer {
 
 .container {
   height: 100%;
-  margin: 0 300px;
 
   display: flex;
   justify-content: space-between;
@@ -125,7 +124,7 @@ footer {
     width: 55rem;
     position: absolute;
     right: 0;
-    top: -80px;
+    top: -5rem;
   }
 }
 
@@ -153,7 +152,6 @@ button {
   border: 2px solid rgb(2, 130, 249);
   background-color: rgb(48, 48, 48);
   color: white;
-  padding: 3px 15px;
 }
 
 #right-bottom-footer {

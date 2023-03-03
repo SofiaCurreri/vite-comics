@@ -16,6 +16,9 @@ export default {
 <template>
   <div class="container">
     <AppCard v-for="comic in comics" :comic="comic" />
+    <button>
+      <a href="#"><h2>LOAD MORE</h2></a>
+    </button>
   </div>
 </template>
 
@@ -28,5 +31,16 @@ export default {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+button {
+  border: transparent;
+  background-color: rgb(2, 130, 249);
+  color: white;
+  padding: 3px 15px;
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
 }
 </style>

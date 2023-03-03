@@ -3,6 +3,7 @@ import AppHeader from "./components/AppHeader.vue";
 import AppContent from "./components/AppContent.vue";
 import AppMenu from "./components/AppMenu.vue";
 import AppFooter from "./components/AppFooter.vue";
+import AppJumbotron from "./components/AppJumbotron.vue";
 
 export default {
   components: {
@@ -10,6 +11,7 @@ export default {
     AppFooter,
     AppContent,
     AppMenu,
+    AppJumbotron,
   },
 };
 </script>
@@ -19,6 +21,7 @@ export default {
 
   <main>
     <section id="content">
+      <AppJumbotron />
       <div class="container">
         <AppContent />
       </div>
@@ -35,17 +38,13 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-template {
-  font-family: "Open Sans", sans-serif;
-}
-
 main {
   margin-top: -20px;
 }
 
 #content {
   width: 100vw;
-  height: 10vh;
+  height: 90vh;
   background-color: rgb(28, 28, 28);
 }
 

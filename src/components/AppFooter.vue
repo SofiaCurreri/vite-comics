@@ -34,7 +34,7 @@
               <li><a href="#"> Terms of Use</a></li>
               <li><a href="#">Privacy</a></li>
               <li><a href="#"> Policy</a></li>
-              <li><a href="#"> Ad Choicess</a></li>
+              <li><a href="#"> Ad Choices</a></li>
               <li><a href="#">Advertising</a></li>
               <li><a href="#">Jobs</a></li>
               <li><a href="#">Subscriptions</a></li>
@@ -143,7 +143,7 @@ footer {
 
 #footer-bottom {
   height: 10vh;
-  width: 100%;
+  width: 100vw;
   background-color: rgb(48, 48, 48);
   position: absolute;
   z-index: 1;

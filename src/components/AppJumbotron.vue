@@ -1,7 +1,7 @@
 <script></script>
 
 <template>
-  <section id="jumbotron"></section>
+  <section id="jumbotron" class="mt-4"></section>
 </template>
 
 <style lang="scss" scoped>

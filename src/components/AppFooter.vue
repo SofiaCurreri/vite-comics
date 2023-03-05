@@ -7,7 +7,7 @@
         <div class="flex-x">
           <div class="flex-y">
             <div class="flex-y">
-              <h2>DC COMICS</h2>
+              <h4>DC COMICS</h4>
               <ul>
                 <li><a href="#">Characters</a></li>
                 <li><a href="#">Comics</a></li>
@@ -20,7 +20,7 @@
             </div>
 
             <div class="flex-y">
-              <h2>SHOP</h2>
+              <h4>SHOP</h4>
               <ul>
                 <li><a href="#">Shop DC</a></li>
                 <li><a href="#">Shop DC</a></li>
@@ -29,7 +29,7 @@
             </div>
           </div>
           <div class="flex-y">
-            <h2>DC</h2>
+            <h4>DC</h4>
             <ul>
               <li><a href="#"> Terms of Use</a></li>
               <li><a href="#">Privacy</a></li>
@@ -45,7 +45,7 @@
             </ul>
           </div>
           <div class="flex-y">
-            <h2>SITES</h2>
+            <h4>SITES</h4>
             <ul>
               <li><a href="#">DC</a></li>
               <li><a href="#"> MAD Magazine</a></li>
@@ -63,11 +63,11 @@
     <section id="footer-bottom">
       <div class="container">
         <button>
-          <a href="#"><h3 class="px-4 py-2">SIGN-UP NOW!</h3></a>
+          <a href="#"><h4 class="px-3 py-1">SIGN-UP NOW!</h4></a>
         </button>
 
         <div id="right-bottom-footer">
-          <div><h2>FOLLOW US</h2></div>
+          <div><h4>FOLLOW US</h4></div>
           <div>
             <img src="../assets/footer-facebook.png" alt="" />
             <img src="../assets/footer-twitter.png" alt="" />
@@ -100,7 +100,7 @@ footer {
     color: rgb(121, 121, 121);
     line-height: 1.5rem;
   }
-  h2 {
+  h4 {
     color: white;
   }
 
@@ -121,10 +121,10 @@ footer {
 #footer-top .container {
   position: relative;
   img {
-    width: 55rem;
+    height: 115%;
     position: absolute;
     right: 0;
-    top: -5rem;
+    top: -2rem;
   }
 }
 

@@ -13,7 +13,7 @@ export default {
 <template>
   <div class="container d-flex align-items-center justify-content-between">
     <div v-for="item in menuData">
-      <img :src="item.url" />
+      <img :src="item.link" />
       <h4>{{ item.title }}</h4>
     </div>
   </div>
